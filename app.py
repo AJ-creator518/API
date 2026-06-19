@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai as genai
+import google-generativeai as genai
 
 # Step 1: AI ka Password (API Key)
 # Yeh ek secret key hoti hai jo Google tumhe free mein dega")
