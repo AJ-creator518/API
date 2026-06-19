@@ -6,7 +6,7 @@ import google.generativeai as genai
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Step 2: Dimaag select karo
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # Step 3: Streamlit App ka Design
 st.title("🤖 Mera Pehla AI Chatbot")
