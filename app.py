@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # Step 1: AI ka Password (API Key)
 # Yeh ek secret key hoti hai jo Google tumhe free mein dega")
-genai.configure(api_key=" secret api")
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Step 2: Dimaag select karo
 model = genai.GenerativeModel('gemini-1.5-flash')
